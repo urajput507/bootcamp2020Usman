@@ -30,4 +30,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
       name: Deploying Using Surge 
-      run: surge ./ bootcamp2020usman.surge.sh  --token "ba0a948a98bdc4972ff39510f279e056"
+      run: surge ./C:\Users\Usman Rajput\Documents\GitHub\bootcamp2020Usman  bootcamp2020usman.surge.sh  --token "ba0a948a98bdc4972ff39510f279e056"
