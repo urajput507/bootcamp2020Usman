@@ -29,4 +29,4 @@ node-version: 12
     - name: Installing Surge 
       run: npm install --global surge
       name: Deploying Using Surge 
-      run: surge ./ bootcamp2020usman.surge.sh  --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./ bootcamp2020usman.surge.sh  --token ${{ secrets.SURGE_TOKEN }}
